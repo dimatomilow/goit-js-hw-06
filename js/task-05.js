@@ -4,6 +4,10 @@ const nameSpan = document.querySelector("#name-output")
 input.addEventListener("input", onInput)
 
 
-function onInput(event) {
-    nameSpan.textContent = event.currentTarget.value;
+function onInput() {
+    if (input.value === "") {
+return nameSpan.textContent = ""
+}
+
+   return nameSpan.textContent = input.value;
  }
