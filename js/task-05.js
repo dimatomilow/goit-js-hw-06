@@ -6,7 +6,7 @@ input.addEventListener("input", onInput)
 
 function onInput() {
     if (input.value === "") {
-return nameSpan.textContent = ""
+return nameSpan.textContent = "Anonymous"
 }
 
    return nameSpan.textContent = input.value;
